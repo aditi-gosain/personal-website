@@ -1,0 +1,56 @@
+.info-body{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.info-picture{
+    height: 380px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.college-name a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 1000;
+}
+
+.college-name :hover{
+    text-decoration: underline;
+}
+
+.info-text{
+    font-size: 16px;
+    /* text-align: center; */
+}
+
+.tech-table {
+    columns: 2 auto;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    margin-left: 10px;
+} 
+
+ul {
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 5px;
+}
+
+
+@media only screen and (max-width:720px) {
+    .info-body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        /* text-align: center; */
+    }
+    .info-picture{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+}
