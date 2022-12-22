@@ -1,5 +1,6 @@
 import React from 'react'
 import './Mobile.css'
+import {HashLink} from 'react-router-hash-link';
 
 function Mobile({isOpen, setIsOpen}) {
   return (
@@ -9,24 +10,24 @@ function Mobile({isOpen, setIsOpen}) {
       </div>
       <div className='mobile-options'>
       <div className='mobile-option'>
-      <a href='#info'>
+      <HashLink to='/#info'>
       1. About
-      </a>
+      </HashLink>
     </div>
     <div className='mobile-option'>
-      <a href='#projects'>
+      <HashLink to='/#projects'>
       2. Projects
-      </a>
+      </HashLink>
     </div>
     <div className='mobile-option'>
-      <a href='#experience'>
+      <HashLink to='/#experience'>
       3. Experience
-      </a>
+      </HashLink>
     </div>
     <div className='mobile-option'>
-      <a href='#contact'>
+      <HashLink to='/#contact'>
       4. Contact
-      </a>
+      </HashLink>
     </div>
     </div>
     </div>)
