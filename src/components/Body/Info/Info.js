@@ -14,7 +14,7 @@ function Info() {
     <img src={require('../../../assets/my-image.jpg')} className='info-picture'/>
     </div>
     <div className='info-text'>
-    My name is Aditi Singh. I am a pre-final year undergraduate at the <span className='college-name'><a href="https://en.wikipedia.org/wiki/IIT_(ISM)_Dhanbad">Indian Institute of Technology Dhanbad</a></span>.<br/><br/>
+    My name is Aditi Singh. I am a pre-final year undergraduate at the <span className='college-name'><a href="https://www.iitism.ac.in/iitismnew/">Indian Institute of Technology Dhanbad</a></span>.<br/><br/>
     Coding is my passion and I enjoy creating projects and transforming ideas into reality using code. In my free time, I love reading, sketching and listening to music. I am also an active debater and orator.<br/><br/>
     Here are a few technologies I've been working with recently:<br/><br/>
     <div className='tech-table'>

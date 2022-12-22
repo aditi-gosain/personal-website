@@ -15,7 +15,7 @@ function Projects() {
             return <ProjectCard project={project}/>
         })}
     </div>
-    <div className='project-button'><a href="xyz">View All Projects</a></div>
+    <div className='project-button'><a href="projects">View All Projects</a></div>
     </div>
   )
 }

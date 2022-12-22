@@ -1,0 +1,14 @@
+.archive-row:hover{
+    color: blueviolet;
+    font-weight: 1000;
+}
+
+.project-name{
+    font-weight: 1000;
+}
+
+@media screen and (max-width: 720px) {
+    .project-techstack {
+        display: none;
+    }
+}

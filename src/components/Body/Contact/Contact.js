@@ -7,6 +7,7 @@ function Contact() {
   return (
     <div className='contact'>
       <Separator/>
+      {/* <h1 className='section-title'>Get in Touch</h1> */}
       <label className='section-title'>Get in Touch</label>
       <div className='contact-container'>
       <div className='contact-left'>
