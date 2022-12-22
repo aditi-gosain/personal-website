@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.cf929e7c.css",
+    "main.js": "/personal-website/static/js/main.89d1a021.js",
+    "static/media/coding-img.png": "/personal-website/static/media/coding-img.e70e5e3b3050a4c3e893.png",
+    "static/media/aditi-resume.pdf": "/personal-website/static/media/aditi-resume.2e54e2b00b5c21a557ce.pdf",
+    "static/media/my-image.jpg": "/personal-website/static/media/my-image.05d0bc3e8a4114a29dcf.jpg",
+    "static/media/daily-journal.png": "/personal-website/static/media/daily-journal.932ddd5921d52f3e8881.png",
+    "static/media/cryptobase.png": "/personal-website/static/media/cryptobase.0737e492462e2626132a.png",
+    "static/media/goldman-sachs.png": "/personal-website/static/media/goldman-sachs.a1a695bb01902ce11791.png",
+    "static/media/github.png": "/personal-website/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/twitter.png": "/personal-website/static/media/twitter.894988327f8d68209e91.png",
+    "index.html": "/personal-website/index.html",
+    "main.cf929e7c.css.map": "/personal-website/static/css/main.cf929e7c.css.map",
+    "main.89d1a021.js.map": "/personal-website/static/js/main.89d1a021.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf929e7c.css",
+    "static/js/main.89d1a021.js"
+  ]
+}
