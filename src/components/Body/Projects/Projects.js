@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import React from 'react'
 import Separator from '../../Common/Separator/Separator';
 import { ProjectData } from '../../data/projects'
@@ -15,7 +16,7 @@ function Projects() {
             return <ProjectCard project={project}/>
         })}
     </div>
-    <div className='project-button'><a href="projects">View All Projects</a></div>
+    <div className='project-button'><Link to="/projects-archive">View All Projects</Link></div>
     </div>
   )
 }

@@ -1,28 +1,29 @@
 import React from 'react'
 import './Web.css'
+import {HashLink} from 'react-router-hash-link';
 
 function Web() {
   return (
     <div className='web'>
     <div className='web-option'>
-      <a href='#info'>
+      <HashLink to='/#info'>
       About
-      </a>
+      </HashLink>
     </div>
     <div className='web-option'>
-      <a href='#projects'>
+      <HashLink to='/#projects'>
       Projects
-      </a>
+      </HashLink>
     </div>
     <div className='web-option'>
-      <a href='#experience'>
+      <HashLink to='/#experience'>
       Experience
-      </a>
+      </HashLink>
     </div>
     <div className='web-option'>
-      <a href='#contact'>
+      <HashLink to='/#contact'>
       Contact
-      </a>
+      </HashLink>
     </div>
     </div>
   )
